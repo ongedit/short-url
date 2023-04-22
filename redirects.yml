@@ -69,7 +69,7 @@
   status: 308
 - from: notes
   to: https://github.com/thuanowa/garden/blob/main/The%20garden%20of%20thoughts.md
-  status: 308.md
+  status: 308
 - from: ongdev-blog
   to: https://blog.ongdev.com/
   status: 308
