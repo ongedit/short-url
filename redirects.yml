@@ -5,10 +5,10 @@
   to: https://thuanowa.com
   status: 308 # Change status code ex. 301, 302, 307 (Default), 308
 - from: /blog
-  to: https://github.com/thuanowa/garden/blob/main/The%20garden%20of%20thoughts
+  to: https://github.com/thuanowa/garden/blob/main/The%20garden%20of%20thoughts.md
   status: 308 # Change status code ex. 301, 302, 307 (Default), 308
 - from: /note
-  to: https://github.com/thuanowa/garden/blob/main/The%20garden%20of%20thoughts
+  to: https://github.com/thuanowa/garden/blob/main/The%20garden%20of%20thoughts.md
   status: 308 # Change status code ex. 301, 302, 307 (Default), 308
 - from: /calendar
   to: https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Asia%2FHo_Chi_Minh&title=Thuan%20Pham%20Calendar&showNav=1&mode=WEEK&src=dGh1YW5vd2FAZ21haWwuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udmlldG5hbWVzZSNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%237CB342&color=%2333B679&color=%230B8043
@@ -65,11 +65,11 @@
   to: https://www.youtube.com/playlist?list=PLcazFfFZIFPmCOMnUV_QxW7TbSdxhnjS8
   status: 308
 - from: music
-  to: https://github.com/thuanowa/garden/blob/main/music%20i%20like
+  to: https://github.com/thuanowa/garden/blob/main/music%20i%20like.md
   status: 308
 - from: notes
-  to: https://github.com/thuanowa/garden/blob/main/The%20garden%20of%20thoughts
-  status: 308
+  to: https://github.com/thuanowa/garden/blob/main/The%20garden%20of%20thoughts.md
+  status: 308.md
 - from: ongdev-blog
   to: https://blog.ongdev.com/
   status: 308
