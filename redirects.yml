@@ -1,22 +1,113 @@
 - from: /me
   to: https://github.com/thuanowa
   status: 308 # Change status code ex. 301, 302, 307 (Default), 308
-- from: /google/:q # Match exactly one ex. /google/recursion
-  to: https://google.com/search?q=:q
-- from: /vercel/:slug* # Match zero or more ex. /vercel /vercel/docs /vercel/solutions/nextjs
-  to: https://vercel.com/:slug
-- from: /twitter/:slug? # Match Zero or one ex. /twitter /twitter/thewdhanat
-  to: https://twitter.com/:slug
-- from: /github/:slug+ # One or more ex. /github/ThewApp github/ThewApp/vercel-shorturl
-  to: https://github.com/:slug
-- from: /dev/:slug1/:slug2 # Multiple match ex. /dev/p/information
-  to: https://dev.to/:slug1/:slug2
-- from: /google
-  to: https://google.com/search?q=:q
-  query:
-    action: search # Must have this exact query
-    q: :q # And this match in query ex. /google?action=search&q=recursion
-- from: /dev
-  to: https://dev.to/:user
-  query:
-    u: :user? # Optional match ex. /dev /dev?u=thewbear
+- from: /all
+  to: https://thuanowa.com
+  status: 308 # Change status code ex. 301, 302, 307 (Default), 308
+- from: /blog
+  to: https://github.com/thuanowa/garden/blob/main/The%20garden%20of%20thoughts.md
+  status: 308 # Change status code ex. 301, 302, 307 (Default), 308
+- from: /note
+  to: https://github.com/thuanowa/garden/blob/main/The%20garden%20of%20thoughts.md
+  status: 308 # Change status code ex. 301, 302, 307 (Default), 308
+- from: /calendar
+  to: https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Asia%2FHo_Chi_Minh&title=Thuan%20Pham%20Calendar&showNav=1&mode=WEEK&src=dGh1YW5vd2FAZ21haWwuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udmlldG5hbWVzZSNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%237CB342&color=%2333B679&color=%230B8043
+  status: 308 # Change status code ex. 301, 302, 307 (Default), 308
+- from: /calendar
+  to: https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Asia%2FHo_Chi_Minh&title=Thuan%20Pham%20Calendar&showNav=1&mode=WEEK&src=dGh1YW5vd2FAZ21haWwuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udmlldG5hbWVzZSNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%237CB342&color=%2333B679&color=%230B8043
+  status: 308 # Change status code ex. 301, 302, 307 (Default), 308
+- from: course-manager-design.md
+  to: https://www.figma.com/community/file/978217394826446327
+  status: 308 # Change status code ex. 301, 302, 307 (Default), 308
+- from: course-manager-doc.md
+  to: https://github.com/OngDev/course-manager/blob/master/docs/style-guide.md
+  status: 308
+- from: doc-quan-tri-mang.md
+  to: http://daotao1.stu.edu.vn/Foxdata/Tailieu/20212/CS09011.pdf
+  status: 308
+  status: 308
+- from: home.md
+  to: https://goo.gl/maps/HaYsqCxb55Z3mJ8c8
+  status: 308
+- from: music-b-ray.md
+  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPnPxkQL_Z0FNJ2YS7ECrlMy
+  status: 308
+- from: music-billie-eilish.md
+  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPltCoheAQcmGOvZZaWDVont
+  status: 308
+- from: music-chill-hop.md
+  to: https://www.youtube.com/watch?v=hcg-7s1-eS8&list=PLt7bG0K25iXjvB28Upp4YU_LvLS2MFbLr
+  status: 308
+- from: music-chinese.md
+  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPnhEmemFV7GvH71lBj2qmg3
+  status: 308
+- from: music-den-vau.md
+  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPnSPzlS9PwdS9TMCp8fgehU
+  status: 308
+- from: music-en.md
+  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPmZhPWliZ4YdcRh-BCPx0nF
+  status: 308
+- from: music-ja.md
+  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPl6YPoy2tcmBoUBHDYpVX_j
+  status: 308
+- from: music-joji.md
+  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPld2xu_nAgmbgj5QldQOpUB
+  status: 308
+- from: music-ko.md
+  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPnkx8uYK2iNGHIoXBWYyR2r
+  status: 308
+- from: music-spanish.md
+  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPlKdWAIczoIM1vqcbawoeOE
+  status: 308
+- from: music-two-feet.md
+  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPlnR4dLNSQiuQt4dOEcbacI
+  status: 308
+- from: music-vi.md
+  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPmCOMnUV_QxW7TbSdxhnjS8
+  status: 308
+- from: music.md
+  to: https://github.com/thuanowa/garden/blob/main/music%20i%20like.md
+  status: 308
+- from: notes.md
+  to: https://github.com/thuanowa/garden/blob/main/The%20garden%20of%20thoughts.md
+  status: 308
+- from: ongdev-blog.md
+  to: https://blog.ongdev.com/
+  status: 308
+- from: photos.md
+  to: photos.md
+  status: 308
+- from: projects.md
+  to: https://thuanowa.com/posts/projects
+  status: 308
+- from: resume.md
+  to: https://docs.google.com/document/d/1vLrTNjnHL_zEaVJs61mfBKhwc7vHxHvokx3cJpmQnok
+  status: 308
+- from: thuyet-trinh-ma-hoa-ung-dung-doc.md
+  to: https://docs.google.com/document/d/1MHOEVv4WAbYqzz6tvVWFIfu64yMXpmueiHCBME0jaLU/edit?usp=sharing
+  status: 308
+- from: thuyet-trinh-ma-hoa-ung-dung-slide.md
+  to: https://www.canva.com/design/DAE9B_-k7pg/e92qwkpX42jZBFXIPI0NwA/view?utm_content=DAE9B_-k7pg&utm_campaign=designshare&utm_medium=link&utm_source=viewer
+  status: 308
+- from: youtube.md
+  to: https://www.youtube.com/@thuanowa
+  status: 308
+# - from: /google/:q # Match exactly one ex. /google/recursion
+#   to: https://google.com/search?q=:q
+# - from: /vercel/:slug* # Match zero or more ex. /vercel /vercel/docs /vercel/solutions/nextjs
+#   to: https://vercel.com/:slug
+# - from: /twitter/:slug? # Match Zero or one ex. /twitter /twitter/thewdhanat
+#   to: https://twitter.com/:slug
+# - from: /github/:slug+ # One or more ex. /github/ThewApp github/ThewApp/vercel-shorturl
+#   to: https://github.com/:slug
+# - from: /dev/:slug1/:slug2 # Multiple match ex. /dev/p/information
+#   to: https://dev.to/:slug1/:slug2
+# - from: /google
+#   to: https://google.com/search?q=:q
+#   query:
+#     action: search # Must have this exact query
+#     q: :q # And this match in query ex. /google?action=search&q=recursion
+# - from: /dev
+#   to: https://dev.to/:user
+#   query:
+#     u: :user? # Optional match ex. /dev /dev?u=thewbear
