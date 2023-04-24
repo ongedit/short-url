@@ -74,7 +74,7 @@
   to: https://blog.ongdev.com/
   status: 308
 - from: photos
-  to: photos
+  to: https://photos.app.goo.gl/NHKs5HVU6FWtFmG28
   status: 308
 - from: projects
   to: https://thuanowa.com/posts/projects
