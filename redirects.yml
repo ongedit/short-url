@@ -20,7 +20,7 @@
   to: https://www.figma.com/community/file/978217394826446327
   status: 308 # Change status code ex. 301, 302, 307 (Default), 308
 - from: course-manager-doc
-  to: https://github.com/OngDev/course-manager/blob/master/docs/style-guide
+  to: https://github.com/OngDev/course-manager/blob/master/docs/style-guide.md
   status: 308
 - from: doc-quan-tri-mang
   to: http://daotao1.stu.edu.vn/Foxdata/Tailieu/20212/CS09011.pdf
