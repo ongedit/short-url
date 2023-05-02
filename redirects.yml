@@ -60,6 +60,8 @@
   status: 308
 - from: music-two-feet
   to: https://www.youtube.com/playlist?list=PLcazFfFZIFPlnR4dLNSQiuQt4dOEcbacI
+- from: music-alec-benjamin
+  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPnHaEPdJnQEXY8OHc9Y6laD
   status: 308
 - from: music-vi
   to: https://www.youtube.com/playlist?list=PLcazFfFZIFPmCOMnUV_QxW7TbSdxhnjS8
