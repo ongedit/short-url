@@ -93,6 +93,8 @@
 - from: youtube
   to: https://www.youtube.com/@thuanowa
   status: 308
+- from: ongdev_discord
+  to: https://discord.gg/UAjbyrcZT5
 # - from: /google/:q # Match exactly one ex. /google/recursion
 #   to: https://google.com/search?q=:q
 # - from: /vercel/:slug* # Match zero or more ex. /vercel /vercel/docs /vercel/solutions/nextjs
