@@ -1,3 +1,6 @@
+- from: gear
+  to: https://github.com/thuanowa/garden/blob/main/Gear%20I%20use.md
+  status: 308 # Change status code ex. 301, 302, 307 (Default), 308
 - from: /me
   to: https://github.com/thuanowa
   status: 308 # Change status code ex. 301, 302, 307 (Default), 308
