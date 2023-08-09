@@ -4,8 +4,6 @@
 #  to: 
 #  status: 308
 
-- from: music-joseph-solomon
-  to: https://www.youtube.com/playlist?list=PLbkcbIPlMLTN62kiAO026NbBuYy0pUyL4
 - from: use
   to: https://use.thuanowa.com
 - from: /me
@@ -28,32 +26,8 @@
   to: http://daotao1.stu.edu.vn/Foxdata/Tailieu/20212/CS09011.pdf
 - from: home
   to: https://goo.gl/maps/Lhp55DWezWdQTmq38
-- from: music-b-ray
-  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPnPxkQL_Z0FNJ2YS7ECrlMy
-- from: music-billie-eilish
-  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPltCoheAQcmGOvZZaWDVont
-- from: music-chill-hop
-  to: https://www.youtube.com/watch?v=hcg-7s1-eS8&list=PLt7bG0K25iXjvB28Upp4YU_LvLS2MFbLr
-- from: music-chinese
-  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPnhEmemFV7GvH71lBj2qmg3
-- from: music-den-vau
-  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPnSPzlS9PwdS9TMCp8fgehU
-- from: music-en
+- from: music-playlist
   to: https://www.youtube.com/playlist?list=PLcazFfFZIFPmZhPWliZ4YdcRh-BCPx0nF
-- from: music-ja
-  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPl6YPoy2tcmBoUBHDYpVX_j
-- from: music-joji
-  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPld2xu_nAgmbgj5QldQOpUB
-- from: music-ko
-  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPnkx8uYK2iNGHIoXBWYyR2r
-- from: music-spanish
-  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPlKdWAIczoIM1vqcbawoeOE
-- from: music-two-feet
-  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPlnR4dLNSQiuQt4dOEcbacI
-- from: music-alec-benjamin
-  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPnHaEPdJnQEXY8OHc9Y6laD
-- from: music-vi
-  to: https://www.youtube.com/playlist?list=PLcazFfFZIFPmCOMnUV_QxW7TbSdxhnjS8
 - from: music
   to: https://www.thuanowa.com/posts/music-i-like
 - from: notes
